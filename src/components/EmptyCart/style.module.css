@@ -1,0 +1,17 @@
+.empty_cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  height: 350px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin: 40px;
+}
+.text {
+  color: gray;
+  font-size: 24px;
+  font-weight: 400;
+}

@@ -1,0 +1,57 @@
+.card {
+  display: grid;
+  grid-template-columns: 2fr 2.5fr 1.5fr 1fr 0.5fr;
+  gap: 15px;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(236, 235, 235, 0.942);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
+.img {
+  width: 170px;
+  aspect-ratio: 1;
+  border-radius: 20px;
+}
+.title {
+  color: rgb(110, 106, 106);
+  font-size: 20px;
+  font-weight: 400;
+}
+button {
+  cursor: pointer;
+}
+.change_btn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: center;
+}
+.btn {
+  width: 35px;
+  aspect-ratio: 1;
+  border: 2px solid rgb(169,195,185);
+  background-color: rgba(255, 255, 255, 0.591);
+  border-radius: 50%;
+  color: rgb(110, 106, 106);
+  font-weight: bold;
+  margin: 5px;
+}
+.change_btn span {
+  font-size: 20px;
+}
+.price {
+  font-size: 20px;
+  text-align: center;
+}
+.del_btn {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 36px;
+  color: rgb(110, 106, 106);
+}
+.del_btn:hover {
+  color: black;
+}

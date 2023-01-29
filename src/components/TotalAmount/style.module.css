@@ -1,0 +1,50 @@
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  width: 320px;
+  position: fixed;
+  right: 10px;
+  top: 30px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(236, 235, 235, 0.942);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.title,
+.amount {
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid rgb(166, 165, 165);
+}
+.title {
+  font-weight: 500;
+  font-size: 22px;
+  color: rgb(110, 106, 106);
+}
+.amount {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.pay_btn {
+  margin: 30px 10px;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(163, 195, 183);
+  border: 2px solid rgb(110, 106, 106);
+  color: rgb(110, 106, 106);
+  font-size: 16px;
+  font-weight: 500;
+}
+.pay_btn:hover {
+  background-color: rgb(186, 213, 203);
+  color: black;
+  transition: 0.5s;
+}
